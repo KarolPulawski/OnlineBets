@@ -59,8 +59,6 @@ public class FakerService {
         for(int i = 0; i < 20; i++) {
             JSONObject oJsonInner = new JSONObject();
 
-
-
             String t = faker.team().name();
             String c = faker.address().city();
 
